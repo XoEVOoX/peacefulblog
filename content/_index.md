@@ -1,5 +1,5 @@
 ---
-title: HB Theme Template
+title: Peaceful.dev
 # menu:
 #   main:
 #     name: Home

@@ -13042,10 +13042,6 @@ html {
   width: auto;
 }
 
-.hb-header-logo {
-  background: #712cf9;
-}
-
 .hb-header-submenu {
   color: inherit;
 }

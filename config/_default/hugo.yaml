@@ -1,7 +1,7 @@
-baseURL: https://theme.hbstack.dev/
-title: HB Starter Theme Template
+baseURL: https://peacefulz.neocities.org/
+title: Peaceful.dev
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
+copyright: "Copyright © 2022-{year} All Rights Reserved."
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
@@ -24,7 +24,7 @@ outputs:
     - WebAppManifest # required by PWA module to make your site installable.
 
 taxonomies:
-  authors: authors       # multiple authors.
+#  authors: authors        # multiple authors.
   tags: tags
   categories: categories
   series: series
@@ -53,8 +53,6 @@ related:
     weight: 60
   - name: series
     weight: 60
-  - name: authors
-    weight: 10
   - name: date
     weight: 10
   threshold: 10 # for testing, increase it to suit your case.
@@ -67,3 +65,14 @@ security:
       - CI$
       - PWD
 
+ignoreFiles: "content/templates/.*"
+
+###########################################################
+# ADDED SECTION TO ENSURE LOCAL LAYOUTS ARE FOUND
+###########################################################
+module:
+  # The configuration below ensures that any files in your local
+  # layouts/ directory (like layouts/shortcodes/contact-form.html) 
+  # are prioritized and correctly included by Hugo.
+  imports:
+    - path: github.com/hbstack/core # This is likely your theme/core module.

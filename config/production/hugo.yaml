@@ -1,3 +1,7 @@
+baseURL: "https://peacefulz.neocities.org/"
+canonifyURLs: true
+relativeURLs: false
+
 # see https://hugomods.com/en/docs/google-analytics/.
 # googleAnalytics: 'G-XXXXXXXXXX' # Google Analytics, please make sure you've imported the Google Analytics module.
 

@@ -1,9 +1,19 @@
+# File: config/_default/module.yaml
+
 # For some regions can not access the proxy.golang.org, i.e. China.
 # See https://hugomods.com/en/blog/2023/04/go-and-hugo-proxy-servers/ for all available proxy servers.
 # proxy: https://goproxy.cn,direct
 
 # The order of module is very important, precedence from top to bottom.
 imports:
+  # FIX: Correcting the module path to exclude config files. 
+  # We use the root 'meta' module path, not the invalid '/config' subdirectory path.
+  - path: github.com/hbstack/meta
+    exclude:
+      - config/_default/languages.zh-hans.yaml
+      - config/_default/menus.zh-hans.yaml
+      - config/_default/params.zh-hans.yaml
+
   # gallery modules.
   - path: github.com/hbstack/gallery
   - path: github.com/hbstack/gallery/modules/breadcrumb
@@ -55,8 +65,5 @@ imports:
   # - path: github.com/hugomods/google-adsense
 
   # recommended modules
-  # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
-  # see also https://hbstack.dev/en/docs/modules/meta/.
-  # to remove unused modules, you need to replace the recommended module with modules your need.
-  # see also https://hbstack.dev/en/2023/10/replace-meta-modules/.
+  # Note: Since 'github.com/hbstack/meta' is imported above, it should load its other resources.
   - path: github.com/hbstack/meta/recommended

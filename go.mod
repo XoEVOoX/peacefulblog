@@ -51,6 +51,7 @@ require (
 	github.com/hbstack/header/modules/theme-toggle v0.5.2 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
 	github.com/hbstack/mermaid v0.2.2 // indirect
+	github.com/hbstack/meta v0.0.0-20251012143244-8cf0fb61c851 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/noscript v0.7.0 // indirect
 	github.com/hbstack/pagination v0.8.0 // indirect

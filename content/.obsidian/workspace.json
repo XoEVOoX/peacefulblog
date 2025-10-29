@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "b07c880194deef15",
+    "type": "split",
+    "children": [
+      {
+        "id": "f27559c3c81bbcb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b502f166f9a0d7f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/Search Like a Pro/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "27d7f474f59f9738",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f1f61ef947c2431",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbf61ae2e82f82a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "91ec535723a8d565",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "690ec2da63663ada",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2b62af0e86103662",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ffd0155cb27d325",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "951a8d10c22339da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/what to expect/what to expect.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for what to expect"
+            }
+          },
+          {
+            "id": "74dbb5a3b2662d2d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/what to expect/what to expect.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from what to expect"
+            }
+          },
+          {
+            "id": "1d02da03f457772c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "caf6541231dc5543",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/what to expect/what to expect.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of what to expect"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b502f166f9a0d7f9",
+  "lastOpenFiles": [
+    "blog/Search Like a Pro/Screenshot from 2025-10-29 01-18-56.png",
+    "blog/Search Like a Pro/index.md",
+    "blog/Start Watching Youtube Locally/index.md",
+    "blog/Search Like a Pro/featured_image.jpg",
+    "blog/Search Like a Pro/images",
+    "blog/Search.md",
+    "blog/Start Watching Youtube Locally/featured-image.png",
+    "docs/what to expect/_index.md",
+    "docs/_index.md",
+    "about/index.md",
+    "about/About Me/_index.md",
+    "about/About Me",
+    "blog/_index.md",
+    "about/featured-blue-ridge.jpg",
+    "_index.md",
+    "contact/_index.md",
+    "archives/_index.md",
+    "docs/what to expect",
+    "docs/What to expect",
+    "docs/About Me/_index.md",
+    "about/about.md",
+    "about",
+    "templates/Blog Template.md",
+    "docs/About Me/whoami.md",
+    "contact",
+    "docs/About Me/My Life.md",
+    "docs/About Me/My Life",
+    "docs/About Me/whoami",
+    "gallery/_index.md",
+    "tags/_index.md",
+    "categories/_index.md",
+    "docs/TestFolder2/index.md",
+    "docs/About Me/Test Nest/testnest.md",
+    "docs/TestFolder2",
+    "docs/About Me/Test Nest",
+    "blog/Start Watching Youtube Locally/feature-test.jpg",
+    "blog/Start watching YouTube locally/Start Watching Youtube Locally.md",
+    "blog/Start watching YouTube locally/featured-10-21-2025.png"
+  ]
+}

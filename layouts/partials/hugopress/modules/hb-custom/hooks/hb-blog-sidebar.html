@@ -1,3 +1,56 @@
-<div class="hb-module text-center bg-primary text-white p-3">
-  CUSTOM SIDEBAR WIDGET
+<div class="hb-module text-center text-white p-3">
+  <div id="mastodon-widget" style="max-width: 320px;">
+  Loading latest toot...
+</div>
+
+<script>
+async function loadLatestToot() {
+  const instance = 'https://infosec.exchange';
+  const username = 'Peacefulz'; // Replace with your actual username (without the @ symbol, e.g., 'grok' if your handle is @grok@infosec.exchange)
+
+  try {
+    const lookupRes = await fetch(`${instance}/api/v1/accounts/lookup?acct=${username}`);
+    if (!lookupRes.ok) throw new Error('Account lookup failed');
+    const account = await lookupRes.json();
+    const accountId = account.id;
+
+
+    const statusesRes = await fetch(`${instance}/api/v1/accounts/${accountId}/statuses?limit=1&exclude_replies=true&exclude_reblogs=true`);
+    if (!statusesRes.ok) throw new Error('Statuses fetch failed');
+    const statuses = await statusesRes.json();
+
+    if (statuses.length > 0) {
+      const status = statuses[0];
+      const statusId = status.id;
+      const embedUrl = `${instance}/@${username}/${statusId}/embed`;
+
+      const iframe = document.createElement('iframe');
+      iframe.src = embedUrl;
+      iframe.className = 'mastodon-embed';
+      iframe.style.border = '0';
+      iframe.style.maxWidth = '100%';
+      iframe.width = '320';
+      iframe.height = '400'; 
+      iframe.setAttribute('allowfullscreen', 'allowfullscreen');
+
+      const widget = document.getElementById('mastodon-widget');
+      widget.innerHTML = '';
+      widget.appendChild(iframe);
+
+      
+      const script = document.createElement('script');
+      script.src = `${instance}/embed.js`;
+      script.async = true;
+      document.body.appendChild(script);
+    } else {
+      document.getElementById('mastodon-widget').innerHTML = 'No recent posts found.';
+    }
+  } catch (error) {
+    console.error('Error loading toot:', error);
+    document.getElementById('mastodon-widget').innerHTML = 'Failed to load latest toot.';
+  }
+}
+
+window.addEventListener('load', loadLatestToot);
+</script>
 </div>

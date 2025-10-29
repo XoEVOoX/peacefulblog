@@ -1,74 +1,60 @@
 main:
-  - name: Support
-    identifier: support
+  - name: Contact
+    identifier: contact
     weight: 100
-    url: https://github.com/hbstack
+    pageRef: /contact/
     params:
-      header: The HB support community.
+      header: Let's connect!
       icon:
         vendor: font-awesome-solid
-        name: headset
-
-  - name: Documentation
-    parent: support
-    url: https://hbstack.dev/
+        name: envelope
+  - name: Email
+    parent: contact
+    url: mailto:Peacefulz@protonmail.com
     weight: 1
     params:
       icon:
-        vendor: bs
-        name: book
-        className: text-primary
-      description: The documentation.
-
-  - name: GitHub
-    parent: support
-    url: https://github.com/hbstack
-    weight: 11
-    params:
-      icon:
-        vendor: fab
-        name: github
-      description: The code repository.
-
-  - name: Discussion
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions
-    weight: 12
-    params:
-      icon:
-        vendor: font-awesome-regular
-        name: comments
-        color: green
-      description: Ask questions and share your ideas.
-
-  - name: Bug Report
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
-    weight: 13
-    params:
-      icon:
         vendor: font-awesome-solid
-        name: bug
-        color: red
-      description: Tell us about a bug or issue.
-
-  - name: Feature Request
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
-    weight: 14
-    params:
-      icon:
-        vendor: font-awesome-regular
-        name: lightbulb
-        color: orange
-      description: Suggest new or updated features.
-  
+        name: envelope
+        color: "#0072B1"
+      description: Send me a message directly.
   - name: Mastodon
-    parent: support
-    url: https://techhub.social/@hbstack
-    weight: 16
+    parent: contact
+    url: https://infosec.exchange/@Peacefulz
+    weight: 2
     params:
       icon:
         vendor: simple
         name: mastodon
-      description: Follow us on Mastodon to get latest updates.
+        color: "#6364FF"
+      description: Follow my updates on Mastodon.
+  - name: GitHub
+    parent: contact
+    url: https://github.com/XoEVOoX
+    weight: 3
+    params:
+      icon:
+        vendor: fab
+        name: github
+        color: "#FFFFFF"
+      description: Check out my projects and code.
+  - name: YouTube
+    parent: contact
+    url: https://youtube.com/@PeacefulRS
+    weight: 4
+    params:
+      icon:
+        vendor: fab
+        name: youtube
+        color: "#FF0000"
+      description: Watch my videos and tutorials.
+  - name: Keybase
+    parent: contact
+    url: https://keybase.io/Peacefulz
+    weight: 5
+    params:
+      icon:
+        vendor: simple
+        name: keybase
+        color: "#FF0000"
+      description: Connect with me securely on Keybase.

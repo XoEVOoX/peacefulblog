@@ -324,6 +324,8 @@ github.com/hbstack/mermaid v0.2.1 h1:jcTPFIk5e5+4tS3qGr2R0l9Snky2XReAjKIrtRUZs18
 github.com/hbstack/mermaid v0.2.1/go.mod h1:8teRAhZr8uLd/G5anYe0X7I2GLW5nCPZuE9lbrd12FI=
 github.com/hbstack/mermaid v0.2.2 h1:TtGzO04if+jgnLXdFDiI2opnzvcTDJqoaQAQvNgG0xs=
 github.com/hbstack/mermaid v0.2.2/go.mod h1:gVO/itIHv07hiGqzmUtLw78vkcTU8RMnOl72GVSUUrA=
+github.com/hbstack/meta v0.0.0-20251012143244-8cf0fb61c851 h1:4lKctnsrS7fMDTXTtQwsxoa6s5mPqf6Vc6ZjKwEDEhE=
+github.com/hbstack/meta v0.0.0-20251012143244-8cf0fb61c851/go.mod h1:fgtpFiReGRteSzXfeoCaSmfU54ntcD5ER1LAgQBw5xU=
 github.com/hbstack/meta/recommended v0.2.10 h1:RzRe2LT/lJxlsfGv5UzYC3onl7lp1VWbCm1jAb69kSw=
 github.com/hbstack/meta/recommended v0.2.10/go.mod h1:OdGN+zqdgFbet5A6XrfjaTNUTd5L91rOUNRJxgq38fo=
 github.com/hbstack/noscript v0.5.0 h1:pyuTLNlx+g2UjlGgQ+cafEu0onLuFA7m9FlgBTQpRV0=

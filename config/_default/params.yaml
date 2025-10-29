@@ -1,4 +1,4 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: An aging nerd sharing his thoughts, ideas, and discoveries.
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
@@ -11,22 +11,24 @@ hb:
   full_width: false # when true, the layout takes full width globally.
 
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    # brand:  # the brand name, leave it empty to use site's title.
+    # logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      # twitter: razonyang
+      github: XoEVOoX
+      # twitter: 
       rss: true
-      mastodon: https://techhub.social/@hbstack
+      mastodon: https://infosec.exchange/@Peacefulz
+      youtube: https://youtube.com/@PeacefulRS
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      github: XoEVOoX 
+      # twitter: 
       rss: true
-      mastodon: https://techhub.social/@hbstack
+      mastodon: https://infosec.exchange/@Peacefulz
+      youtube: https://youtube.com/@PeacefulRS
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
@@ -35,11 +37,12 @@ hb:
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
+        company: Carvana
+        location: Charlotte, NC
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
+          github: XoEVOoX
+          mastodon: https://infosec.exchange/@Peacefulz
+          youtube: https://youtube.com/@PeacefulRS
           rss: true
       posts:
         recent_count: 5 # the number of recent posts.
@@ -48,7 +51,7 @@ hb:
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    post_thumbnail_placeholder: Peaceful.dev # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
@@ -59,14 +62,31 @@ hb:
         - blog
         - tutorials
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      # Configured from the Giscus snippet you provided.
+      repo: XoEVOoX/peacefulblog
+      repo_id: R_kgDOQFNAfw
+      category: Announcements
+      category_id: DIC_kwDOQFNAf84CxM1L
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      input_position: bottom
+      theme: preferred_color_scheme
+      lang: en
   docs:
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: XoEVOoX/peacefulblog
+      repo_id: R_kgDOQFNAfw
+      category: Announcements
+      category_id: DIC_kwDOQFNAf84CxM1L
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      input_position: bottom
+      theme: preferred_color_scheme
+      lang: en
   content_panel:
     repo:
       service: github # github or gitlab.

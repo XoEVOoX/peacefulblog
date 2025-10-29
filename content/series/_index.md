@@ -6,6 +6,7 @@ menu:
     params:
       icon:
         vendor: bs
+        color: red
         name: columns
       description: All of the series.
 ---

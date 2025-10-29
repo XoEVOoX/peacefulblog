@@ -1,0 +1,45 @@
+<form
+  name="contact"
+  method="POST"
+  action="https://formspree.io/f/xeorwrqr"
+  class="mb-5 p-4 border rounded-3 bg-body-tertiary"
+>
+  <div class="mb-3">
+    <label for="contact-name" class="form-label fw-bold">{{ T "form_name" | default "Name" }}</label>
+    <input 
+      type="text" 
+      name="name" 
+      id="contact-name" 
+      class="form-control" 
+      placeholder="Your Name" 
+      required
+    >
+  </div>
+  
+  <div class="mb-3">
+    <label for="contact-email" class="form-label fw-bold">{{ T "form_email" | default "Email Address" }}</label>
+    <input 
+      type="email" 
+      name="_replyto" 
+      id="contact-email" 
+      class="form-control" 
+      placeholder="name@example.com" 
+      required
+    >
+  </div>
+  
+  <div class="mb-4">
+    <label for="contact-message" class="form-label fw-bold">{{ T "form_message" | default "Message" }}</label>
+    <textarea 
+      name="message" 
+      id="contact-message" 
+      class="form-control" 
+      rows="5" 
+      required
+    ></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary btn-lg w-100">
+    {{ T "form_submit" | default "Send Message" }}
+  </button>
+</form>

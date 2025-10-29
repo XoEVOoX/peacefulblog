@@ -1,3 +1,37 @@
+# Hugo / generated
+/public/
+/resources/_gen/
+/resources/_gen/**
+/.hugo_build.lock
+/hugo_stats.json
+
+# Node
+/node_modules/
+
+# Editor directories
+/.vscode/
+/.idea/
+/.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.*.local
+
+# Other caches and build output
+.cache/
+.sass-cache/
+dist/
+coverage/
+*.log
 .hugo_build.lock
 hugo_stats.json
 package-json.lock
